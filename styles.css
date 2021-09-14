@@ -1,0 +1,216 @@
+*{
+    
+    background-color: #757a98;
+    margin: 0;
+    padding: 0;
+}   
+
+.main{
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 15vh;
+    padding: 10px;
+    background-color: #2a314e;
+    display: grid;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-areas: "resultad resultad resultad resultad"
+                        "button1 button2 button3 button4"   
+                        "button5 button6 button7 button8"
+                        "button9 button10 button11 button12"
+                        "button13 button14 button15 button19"
+                        "button16 button17 button18 button19"
+                          
+}
+
+button{
+    
+    border-radius: 100px;
+    margin: 4px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    background-color: #333a57;
+    color: white;
+    text-align: center;
+    outline: none;
+}
+
+input{
+    
+    border-radius: 100px;
+    margin: 4px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    background-color: #333a57;
+    color: white;
+    text-align: center;
+    outline: none;
+}
+
+.style1_button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: #4f556d;
+    font-size: 40px;
+    color: #ff3764
+}
+
+.style1_button:hover{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: #666B7D;
+    font-size: 40px;
+    color: #ff3764;
+    cursor: pointer;
+    
+}
+
+
+.style2_button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: #3b3e5d;
+    font-size: 40px;
+    color: white;
+}
+
+.style2_button:hover{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: #50536E;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.style3_button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ff3764;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.style3_button:hover{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FF527A;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+#resultad{
+    grid-area: resultad;
+ 
+}
+
+#button1{
+    grid-area: button1;
+    
+
+}
+
+#button2{
+    grid-area: button2;
+
+}
+
+#button3{
+    grid-area: button3;
+
+}
+
+#button4{
+    grid-area: button4;
+
+}
+
+#button5{
+    grid-area: button5;
+
+}
+
+#button6{
+    grid-area: button6;
+
+}
+
+#button7{
+    grid-area: button7;
+
+}
+
+#button8{
+    grid-area: button8;
+
+}
+
+#button9{
+    grid-area: button9;
+
+}
+
+#button10{
+    grid-area: button10;
+
+}
+
+#button11{
+    grid-area: button11;
+
+}
+
+#button12{
+    grid-area: button12;
+
+}
+
+#button13{
+    grid-area: button13;
+
+}
+
+#button14{
+    grid-area: button14;
+
+}
+
+#button15{
+    grid-area: button15;
+
+}
+
+#button16{
+    grid-area: button16;
+
+}
+
+#button17{
+    grid-area: button17;
+
+}
+
+#button18{
+    grid-area: button18;
+
+}
+
+#button19{
+    grid-area: button19;
+
+}
+
